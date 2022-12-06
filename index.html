@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <!--Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <!--Made with troll by Joes131205-->
+</head>
+<body>
+    <div id="container">
+        <h1> BMI CALCULATOR</h1>
+        <input type="range" name="" id="weight" min="20" max="200" value ="20" oninput="calculate()"> <p id="weightinput"> 20 kg</p>
+        <br>
+        <input type="range" name="" id="height" min="100" max="250" value ="100" oninput="calculate()"> <p id="heightinput"> 100 cm</p>
+        <p id="score" style="color: rgb(0, 255, 98);">20.0</p>
+        <p id="status">Average / Healthy</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
